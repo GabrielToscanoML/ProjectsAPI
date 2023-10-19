@@ -1,0 +1,24 @@
+{
+    "teams": [
+      {
+        "id": 1,
+        "name": "São Paulo Futebol Clube",
+        "initials": "SPFC"
+      },
+      {
+        "id": 2,
+        "name": "Clube Atlético Mineiro",
+        "initials": "CAM"
+      },
+      {
+        "id": 3,
+        "name": "Flamengo",
+        "initials": "FLA"
+      },
+      {
+        "id": 4,
+        "name": "Fortaleza",
+        "initials": "FOR"
+      }
+    ]
+}
