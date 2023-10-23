@@ -24,7 +24,7 @@ services:
       # Aqui setamos nossas variáveis de ambiente - não se preocupe, mais para frente, ainda nesse dia, temos
       # uma seção inteira destinada a explicá-las!
       MYSQL_USER: root
-      MYSQL_PASSWORD: root
+      MYSQL_PASSWORD: toscano
       MYSQL_HOST: database
       MYSQL_PORT: 3306
     # Informa ao docker, para que o container node seja iniciado após o container database
@@ -35,7 +35,7 @@ services:
     image: mysql:8.0.29
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: toscano
       MYSQL_DATABASE: projectsdb
     ports:
-      - "33060:3306"
+      - "3306:3306"
